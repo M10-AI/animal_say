@@ -50,6 +50,7 @@ class Gorilla(Animal):
 
     def speak(self): 
         st.write("OOOOAAA OAAAA OAAA OOOOOAA")
+        self.move()
     
     def move(self): 
         st.write("Gorilla comming for yo ass")
