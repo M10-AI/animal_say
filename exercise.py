@@ -31,13 +31,15 @@ class Dog(Animal): # Inheritance
     def move(self): # Abstraction &  Method overriding
         st.write(f"Move with {self.legs} legs") # Polymoprhism
 
-# second animal
+# Leo: T-rex
 
-# third animal
+# Joseph: Lion-King
 
-# fourth animal
+# Sharik: High Koala
 
-# fifth animal
+# Johan: Gorilla
+
+# Frank: Elephant
 
 
 
