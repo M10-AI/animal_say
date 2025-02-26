@@ -47,7 +47,13 @@ class T_Rex(Animal):
 # Johan: Gorilla
 
 # Frank: Elephant
+class Elephant(Animal):
 
+    def speak(self):
+        st.write("Trumpet")
+    
+    def move(self):
+        st.write(f"It moves with it's {self.legs} legs")
 
 
 
