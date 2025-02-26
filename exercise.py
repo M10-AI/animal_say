@@ -32,6 +32,13 @@ class Dog(Animal): # Inheritance
         st.write(f"Move with {self.legs} legs") # Polymoprhism
 
 # Leo: T-rex
+class T_Rex(Animal):
+
+    def speak(self):
+        st.write("Hello, my name is David.")
+    
+    def move(self):
+        st.write(f"I may have {self}, however, I refuse to move at the moment.")
 
 # Joseph: Lion-King
 
