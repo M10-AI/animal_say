@@ -36,6 +36,18 @@ class Dog(Animal): # Inheritance
 # Joseph: Lion-King
 
 # Sharik: High Koala
+class Koala(Animal):
+    def __init__(self, legs):
+        super().__init__(legs)
+        self.move_responses = ["Nah, I think I'll stay", "In your dreams", "Maybe another day", "no", "Can you stop", "I'm not going to move", "...."]
+        self.move_responses_i = 0
+
+    def speak(self):
+        st.write("Hi~")
+    
+    def move(self):
+        st.write(self.move_responses[self.i])
+        self.i += 1
 
 # Johan: Gorilla
 
