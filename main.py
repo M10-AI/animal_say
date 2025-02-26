@@ -34,7 +34,7 @@ with animal3:
 #        gorilla.speak()
 
 with animal4:
-    st.image("https://i.redd.it/rfsd49kkc6w91.png", width=300)
+    st.image("https://static.standard.co.uk/s3fs-public/thumbnails/image/2015/02/02/08/katyperry0202d.jpg?width=1200", width=1200)
     if st.button("Speak", key="lion"):
         pass
  #       Owl.speak()
