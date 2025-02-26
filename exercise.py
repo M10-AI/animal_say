@@ -54,6 +54,3 @@ class Elephant(Animal):
     
     def move(self):
         st.write(f"It moves with it's {self.legs} legs")
-
-
-
