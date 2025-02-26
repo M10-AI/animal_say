@@ -74,7 +74,14 @@ class Gorilla(Animal):
         self.speak()
 
 # Frank: Elephant
+class Elephant(Animal):
 
+    def speak(self):
+        st.write("Trumpet")
+    
+    def move(self):
+        st.write(f"It moves with it's {self.legs} legs")
 
-
+    def new_func():
+        return 36846483
 
