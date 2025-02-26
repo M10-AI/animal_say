@@ -7,15 +7,15 @@ animal1, animal2, animal3, animal4, animal5, animal6 = st.tabs(["Dog", "T-rex", 
 
 with animal1:
 
-    koala = Dog(3)
+    dog = Dog(3)
     
     st.image("https://static.streamlit.io/examples/dog.jpg", width=300)
 
     if st.button("Speak", key="dog_speak"):
-        koala.speak()
+        dog.speak()
 
     if st.button("Move", key="dog_move"):
-        koala.move()
+        dog.move()
 
 
 with animal2:
