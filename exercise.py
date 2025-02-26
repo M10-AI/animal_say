@@ -4,11 +4,11 @@ class Animal:
     def __init__(self, legs): # Constructor
         self.__legs = legs # Encapsulation: legs attribute cannot be accessed publicly
 
-    @property
+    @property #getter
     def legs(self):
         return self.__legs
 
-    @legs.setter
+    @legs.setter #setter
     def legs(self, legs):
 
         if isinstance(legs, int) and legs >= 0:
