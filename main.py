@@ -1,5 +1,5 @@
 import streamlit as st
-from exercise import Dog, T_Rex
+from exercise import Dog, T_Rex, Koala
 
 
 animal1, animal2, animal3, animal4, animal5, animal6 = st.tabs(["Dog", "T-rex", "Gorilla", "Lion", "Elephant", "Koala"])
@@ -33,12 +33,6 @@ with animal3:
         pass        
 #        gorilla.speak()
 
-with animal4:
-    st.image("https://i.redd.it/rfsd49kkc6w91.png", width=300)
-    if st.button("Speak", key="lion"):
-        pass
- #       Owl.speak()
-
 with animal5:
     st.image("https://thumbs.dreamstime.com/b/taipan-19351372.jpg", width=450)
     if st.button("Speak", key="elephant"):
@@ -46,7 +40,12 @@ with animal5:
   #      Snake.speak()
 
 with animal6:
-    st.image("https://thumbs.dreamstime.com/b/taipan-19351372.jpg", width=450)
-    if st.button("Speak", key="koala"):
-        pass
-   #     koala.speak()
+    koala = Koala(4)
+    
+    st.image("https://cdn.britannica.com/26/162626-050-3534626F/Koala.jpg?w=300", width=300)
+
+    if st.button("Speak", key="koala_speak"):
+        koala.speak()
+
+    if st.button("Move", key="koala_move"):
+        koala.move()
