@@ -33,8 +33,22 @@ class Dog(Animal): # Inheritance
         st.write(f"Move with {self.legs} legs") # Polymoprhism
 
 # Leo: T-rex
+class T_Rex(Animal):
+
+    def speak(self):
+        st.write("roar.")
+    
+    def move(self):
+        st.write(f"It refuses to move with it's {self.legs} legs")
 
 # Joseph: Lion-King
+class Lion(Animal):
+
+    def speak(self):
+        st.write("You gonna hear my roar!")
+
+    def move(self):
+        st.write(f"Move with {self.legs} legs")
 
 # Sharik: High Koala
 class Koala(Animal):
