@@ -64,6 +64,15 @@ class Koala(Animal):
 
 # Johan: Gorilla
 
+class Gorilla(Animal): 
+
+    def speak(self): 
+        st.write("OOOOAAA OAAAA OAAA OOOOOAA")
+    
+    def move(self): 
+        st.write("Gorilla comming for yo ass")
+        self.speak()
+
 # Frank: Elephant
 
 
