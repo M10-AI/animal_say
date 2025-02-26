@@ -26,12 +26,13 @@ with animal1:
 #         Cat.speak()
  
 
-# with animal3:
-#     st.image("https://i.pinimg.com/736x/c7/23/7e/c7237edf3dbef9e0aefb00cfa3fe9f29.jpg", width=500)
+with animal3:
+    st.image("https://static.standard.co.uk/s3fs-public/thumbnails/image/2015/02/02/08/katyperry0202d.jpg?width=1200", width=1200)
     
-#     if st.button("Speak", key="parrot"):
-#         pass        
-#         Parrot.speak()
+    if st.button("Speak", key="Lion"):
+        pass        
+        Lion.speak()
+        
 
 # with animal4:
 #     st.image("https://i.redd.it/rfsd49kkc6w91.png", width=300)
