@@ -35,10 +35,10 @@ class Dog(Animal): # Inheritance
 class T_Rex(Animal):
 
     def speak(self):
-        st.write("roar.")
+        st.write("Hello, my name is David.")
     
     def move(self):
-        st.write(f"It refuses to move with it's {self.legs} legs")
+        st.write(f"I may have {self}, however, I refuse to move at the moment.")
 
 # Joseph: Lion-King
 
