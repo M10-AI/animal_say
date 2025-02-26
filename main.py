@@ -1,8 +1,8 @@
 import streamlit as st
-from exercise import Dog
+from exercise import Dog, T_Rex
 
 
-animal1, animal2, animal3, animal4, animal5, = st.tabs(["Dog", "Cat", "Parrot", "Owl", "Snake"])
+animal1, animal2, animal3, animal4, animal5, animal6 = st.tabs(["Dog", "T-rex", "Gorilla", "Lion", "Elephant", "Koala"])
 
 
 with animal1:
@@ -18,29 +18,35 @@ with animal1:
         dog.move()
 
 
-# with animal2:
-#     st.image("https://www.rover.com/blog/wp-content/uploads/iStock-1014250732-1200x675.jpg", width=500)
+with animal2:
+    st.image("https://a.silvergames.com/j/b/t-rex.jpg", width=500)
 
-#     if st.button("Speak", key="cat"):
-#         pass
-#         Cat.speak()
+    if st.button("Speak", key="t_rex"):
+        pass
+        T_Rex.speak()
  
 
-# with animal3:
-#     st.image("https://i.pinimg.com/736x/c7/23/7e/c7237edf3dbef9e0aefb00cfa3fe9f29.jpg", width=500)
+with animal3:
+    st.image("https://i.pinimg.com/736x/c7/23/7e/c7237edf3dbef9e0aefb00cfa3fe9f29.jpg", width=500)
     
-#     if st.button("Speak", key="parrot"):
-#         pass        
-#         Parrot.speak()
+    if st.button("Speak", key="gorilla"):
+        pass        
+#        gorilla.speak()
 
-# with animal4:
-#     st.image("https://i.redd.it/rfsd49kkc6w91.png", width=300)
-#     if st.button("Speak", key="owl"):
-#         pass
-#         Owl.speak()
+with animal4:
+    st.image("https://i.redd.it/rfsd49kkc6w91.png", width=300)
+    if st.button("Speak", key="lion"):
+        pass
+ #       Owl.speak()
 
-# with animal5:
-#     st.image("https://thumbs.dreamstime.com/b/taipan-19351372.jpg", width=450)
-#     if st.button("Speak", key="snake"):
-#         pass
-#         Snake.speak()
+with animal5:
+    st.image("https://thumbs.dreamstime.com/b/taipan-19351372.jpg", width=450)
+    if st.button("Speak", key="elephant"):
+        pass
+  #      Snake.speak()
+
+with animal6:
+    st.image("https://thumbs.dreamstime.com/b/taipan-19351372.jpg", width=450)
+    if st.button("Speak", key="koala"):
+        pass
+   #     koala.speak()
