@@ -34,6 +34,13 @@ class Dog(Animal): # Inheritance
 # Leo: T-rex
 
 # Joseph: Lion-King
+class Lion(Animal):
+
+    def speak(self):
+        st.write("You gonna hear my roar!")
+
+    def move(self):
+        st.write(f"Move with {self.legs} legs")
 
 # Sharik: High Koala
 
